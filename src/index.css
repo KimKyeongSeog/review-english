@@ -19,3 +19,9 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@layer components {
+  .container {
+    @apply bg-gray-100 min-h-screen max-w-screen-md mx-auto px-8 pt-20;
+  }
+}
