@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "HelventicNeue";
+  src: url(/fonts/HelveticaNeue.ttf);
+}
+
+@font-face {
+  font-family: "HB";
+  src: url(/fonts/Helvetica_Neu_Bold.ttf);
+}
+
+@font-face {
+  font-family: "GangWon";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduHyeonokT_OTFMediumA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
